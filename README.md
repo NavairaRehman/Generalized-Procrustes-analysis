@@ -17,5 +17,14 @@ To execute the code:
     run GPA_PCA.m in MATLAB
 
 
+## 3D Generalized Procrustes Analysis (GPA)
 
+1. **Input Files**: Place your `.obj` files (containing vertices and faces) in the `input` directory.
+2. **Run the Script**: Execute the `GPA_3d.m` script in MATLAB. This performs GPA on the vertices while retaining the original faces.
+   ```matlab
+   GPA_3d
+   ```
+3. **Output**: Transformed `.obj` files are saved in the `output` directory with the same structure.
+
+Ensure the input files follow the standard OBJ format for proper processing.
 
